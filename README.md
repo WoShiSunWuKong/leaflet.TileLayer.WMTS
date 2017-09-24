@@ -1,6 +1,6 @@
 leaflet.TileLayer.WMTS
 ======================
-发现原来的版本在调用geoserver发布的wmts事参数缺少，故做了修正
+发现原来的版本在调用`geoserver`发布的`wmts`服务时缺少参数，故做了修正
 ======================
 
 Add WMTS layering for leaflet. I modified a bit the code from IGN that you can find here:
